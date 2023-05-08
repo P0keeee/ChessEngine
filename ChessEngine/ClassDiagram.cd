@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChessEngine.AI" Collapsed="true">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Bishop" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Bishop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Board" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgQEQAIAQAAAAAQUAAIAAgACAABAACAAAAAACAAQA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Human" Collapsed="true">z
+    <Position X="3.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Form1" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="board" Type="ChessEngine.Board" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.125" Y="2.5" />
+        <Point X="11.125" Y="1.813" />
+        <Point X="8.25" Y="1.813" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="player" Type="ChessEngine.Player" FixedFromPoint="true">
+      <Path>
+        <Point X="10.5" Y="2.75" />
+        <Point X="7.583" Y="2.75" Type="JumpStart" />
+        <Point X="7.417" Y="2.75" Type="JumpEnd" />
+        <Point X="4" Y="2.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAKCAAQAgAABDAAAACAAAAAAAJKUIAAQEAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="player" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ChessEngine.King" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>King.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Knight" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="ChessEngine.Piece" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.062" />
+        <Point X="7.5" Y="5.125" />
+        <Point X="11" Y="5.125" />
+        <Point X="11" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Knight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Player" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <AssociationLine Name="board" Type="ChessEngine.Board" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.062" Y="2.5" />
+        <Point X="3.062" Y="1.75" />
+        <Point X="6.75" Y="1.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChessEngine.Piece" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAIgAAAAAAACAIAgAAAAAAAA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ChessEngine.Pawn" Collapsed="true">
+    <Position X="8" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Pawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Program" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Queen" Collapsed="true">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <InheritanceLine Type="ChessEngine.Piece" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.062" />
+        <Point X="7.5" Y="5.125" />
+        <Point X="13.25" Y="5.125" />
+        <Point X="13.25" Y="5.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Queen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChessEngine.Rook" Collapsed="true">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Rook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ChessEngine.PieceEnum" Collapsed="true">
+    <Position X="12" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAACAAAEAAgAAAAAQAAQgAAAQgAAAAAAAAEAAGA=</HashCode>
+      <FileName>PiecesEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
